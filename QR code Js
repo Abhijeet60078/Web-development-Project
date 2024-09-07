@@ -1,0 +1,19 @@
+document.querySelector('.btn').addEventListener('click', function (e) {
+    e.preventDefault(); // Prevent the form from submitting
+    const qrInput = document.getElementById('QRinput').value; // Get the value from the input field
+    const qrImage = document.getElementById('qrimage'); // Get the QR code image element
+    const qrContainer = document.querySelector('.QR-container'); // Get the QR container
+
+    // If input is not empty, generate a new QR code
+    if (qrInput.trim() !== '') {
+        qrImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(qrInput)}`; // Set new QR code source
+        qrContainer.style.display = 'block'; // Display the QR container
+        qrContainer.style.height = 'auto'; // Adjust height
+        qrContainer.style.opacity = '1'; // Make it visible
+    } else {
+        // If input is empty, hide the QR code container
+        qrContainer.style.display = 'none';
+        qrContainer.style.opacity = '0';
+        qrContainer.style.height = '0';
+    }
+});
