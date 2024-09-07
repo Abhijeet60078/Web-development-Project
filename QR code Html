@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE GENERATOR</title>
+    <link rel="stylesheet" href="portfolio .css"
+</head>
+<body>
+    <div class="section-center">
+        <div class="box-section">
+            <div class="heading">
+                <h2 class="upper_head">QR code Generator</h2>
+                <h3 class="lower_head">Write text to create code</h3>
+
+            </div>
+            <form class="input-box">
+                <input type="text" id="QRinput" placeholder="Enter text">
+                <button type="submit" class="btn">Generate</button>
+
+            </form>
+            <div class="QR-container">
+                <img id="qrimage" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=harshit%20jharotiya" alt="QRcode">
+			</div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+<script src="portfolio.js"></script>
+</html>
