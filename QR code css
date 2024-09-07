@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=DynaPuff&family=Great+Vibes&family=Poppins:wght@100&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'poppins',sans-serif;
+    font-size: large;
+    font-display:inherit;
+    font-weight: 500;
+    font-stretch: wider;
+    background-color:crimson;
+
+
+}
+.section-center{
+    height: 100px;
+    place-items:center;
+    
+    display:grid;
+    padding-bottom: 0%;
+}
+.box-section{
+    background-color:aquamarine;
+    padding:1rem;
+    width:22rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap:20px;
+}
+.input-box{
+    height:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:8px;
+    padding:100;
+    width:400;
+    
+}
+.heading{
+    text-align:center;
+    line-height:1.3rem;
+
+}
+#QRinput{
+    height:2rem;
+    padding:5px 10px ;
+}
+#QR input:focus-visible{
+    outline:solid 2px #09479f;
+}
+.btn{
+    background:red;
+    color:white;
+    height:2rem;
+    letter-spacing:2px;
+    background-position: 0%;
+
+}
+.btn:hover{
+    background-color: bisque;
+}
+.btn:active{
+    background:greenyellow;
+}
+.QR-container{
+    width:100%;
+    place-items:center;
+    padding:10px;
+    margin-top:-10px;
+    border:1px solid;
+    border-top:none;
+    height:0;
+    opacity:0;
+    transition:opacity 0.3s ease-in,height 0.1s ease;
+    display:none;
+
+}
+.QR-container img{
+    display:flex;
+    margin:0 auto;
+}
+@media screen and(max-width:768px){
+    .box-section{
+        width:90vw;
+    }
+}
