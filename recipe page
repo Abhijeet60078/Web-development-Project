@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi ki Tapri</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <div class="navContainer">
+            <nav>
+                <ul id="navList">
+                    <li id="navlogo">Abhi Dada Da Dhaba</li>
+                    <li class="navButtons">
+                        <a href="https://blinkit.com/"><button class="navButton"><em>Home</em></button></a>
+                        <a href="#"><button class="navButton"><em>About</em></button></a>
+                        <a href="#"><button class="navButton"><em>Contact</em></button></a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+
+        <!-- Header -->
+        <header></header>
+
+        <!-- Main Content -->
+        <main>
+            <div class="contentBox">
+                <!-- Recipe Section: Gulab Jamun -->
+                <section>
+                    <div class="items">
+                        <div class="leftBox">
+                            <h2>Gulab Jamun</h2>
+                            <div>
+                                <h2>Ingredients</h2>
+                                <ul class="ingBox">
+                                    <li>Sugar</li>
+                                    <li>Bread</li>
+                                    <li>Oil</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2>Recipe</h2>
+                                <ol class="recipeBox">
+                                    <li>Mix milk powder, flour, baking soda, and ghee. Add milk gradually to form a smooth dough.</li>
+                                    <li>Roll the dough into small, smooth balls without cracks.</li>
+                                    <li>Deep fry the balls in ghee or oil on low heat until golden brown.</li>
+                                    <li>Soak the fried balls in warm sugar syrup flavored with cardamom and rose water. Let them soak before serving.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="rightBox">
+                            <img src="gulab-jamun.jpg" alt="Gulab Jamun">
+                            <div class="overlay">
+                                <span>Click here to Buy</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Recipe Section: Rabdi -->
+                <section>
+                    <div class="items">
+                        <div class="leftBox">
+                            <h2>Rabdi</h2>
+                            <div>
+                                <h2>Ingredients</h2>
+                                <ul class="ingBox">
+                                    <li>Milk</li>
+                                    <li>Sugar</li>
+                                    <li>Cardamom</li>
+                                    <li>Saffron </li>
+                                    <li>Chopped nuts</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2>Recipe</h2>
+                                <ol class="recipeBox">
+                                    <li>Heat full-fat milk in a wide, heavy-bottomed pan and bring it to a boil.</li>
+                                    <li>Lower the heat and let it simmer, stirring occasionally. Scrape the cream from the sides and mix it back in until thickened.</li>
+                                    <li>Add sugar, cardamom powder, and optionally saffron or rose water. Stir well until the sugar dissolves.</li>
+                                    <li>Let the rabdi cool, then refrigerate. Serve chilled, garnished with chopped nuts.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="rightBox">
+                            <img src="rabdi-recipe-3.webp" alt="Rabdi">
+                            <div class="overlay">
+                                <span>Click here to Buy</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Copyright 2007 Abhi da Dhaba</p>
+        </footer>
+    </div>
+</body>
+</html>
+
